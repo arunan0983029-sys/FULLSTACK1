@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S. ARUNAN | Backend & AI Engineering Intern Portfolio</title>
+    <meta name="description" content="Portfolio of S. ARUNAN, Backend & AI Engineering Intern. B.Sc. Computer Science student skilled in Python, Java, C, C++, Web Technologies, MySQL, Cryptography & Cybersecurity.">
+    <meta name="keywords" content="S ARUNAN, Arunan portfolio, Backend Intern, AI Engineering, Madurai College, Python developer, Cybersecurity, Web Development">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Sticky Glass Navigation -->
+    <header class="header" id="header">
+        <div class="section-container nav-container">
+            <a href="#hero" class="logo">
+                <span class="logo-accent">&lt;</span>ARUNAN<span class="logo-accent"> /&gt;</span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#playground" class="nav-link">Live Demos</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Theme Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle Mobile Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="section-container hero-grid">
+                <div class="hero-content">
+                    <div class="hero-greeting">
+                        <i class="fas fa-terminal"></i> Hello World, I'm
+                    </div>
+                    <h1 class="hero-title">S. ARUNAN</h1>
+                    <div class="hero-subtitle">
+                        <span class="text-gradient">Backend & AI Engineer</span>
+                        <span class="typing-badge">Intern</span>
+                    </div>
+
+                    <p class="hero-description">
+                        Third-year B.Sc. Computer Science student at <strong>The Madura College</strong> specializing in backend development, cybersecurity, and artificial intelligence. Driven to solve complex real-world problems through robust, scalable, and clean code.
+                    </p>
+
+                    <div class="hero-meta-pills">
+                        <div class="meta-pill">
+                            <i class="fas fa-location-dot"></i> Madurai, Tamil Nadu, India
+                        </div>
+                        <div class="meta-pill">
+                            <i class="fas fa-graduation-cap"></i> B.Sc. CS (III Year)
+                        </div>
+                        <div class="meta-pill">
+                            <i class="fas fa-envelope"></i> arunans3007@gmail.com
+                        </div>
+                        <div class="meta-pill">
+                            <i class="fas fa-phone"></i> +91 6379051534
+                        </div>
+                    </div>
+
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-laptop-code"></i> View My Projects
+                        </a>
+                        <a href="#playground" class="btn btn-secondary">
+                            <i class="fas fa-play-circle"></i> Try Live Demos
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-paper-plane"></i> Contact Me
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Interactive Code Preview -->
+                <div class="hero-card-container">
+                    <div class="terminal-card">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="terminal-title">arunan_profile.py</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">
+                                <span class="comment"># S. ARUNAN - Engineer Profile</span>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="keyword">class</span> <span class="function">SoftwareEngineer</span>:
+                            </div>
+                            <div class="terminal-line" style="padding-left: 1.5rem;">
+                                <span class="keyword">def</span> <span class="function">__init__</span>(self):
+                            </div>
+                            <div class="terminal-line" style="padding-left: 3rem;">
+                                self.name = <span class="string">"S. ARUNAN"</span>
+                            </div>
+                            <div class="terminal-line" style="padding-left: 3rem;">
+                                self.focus = [<span class="string">"Backend"</span>, <span class="string">"AI/ML"</span>, <span class="string">"Security"</span>]
+                            </div>
+                            <div class="terminal-line" style="padding-left: 3rem;">
+                                self.languages = [<span class="string">"Python"</span>, <span class="string">"Java"</span>, <span class="string">"C"</span>, <span class="string">"C++"</span>]
+                            </div>
+                            <div class="terminal-line" style="padding-left: 3rem;">
+                                self.college = <span class="string">"The Madura College"</span>
+                            </div>
+                            <div class="terminal-line" style="padding-left: 1.5rem;">
+                                <span class="keyword">def</span> <span class="function">build_solutions</span>(self):
+                            </div>
+                            <div class="terminal-line" style="padding-left: 3rem;">
+                                <span class="keyword">return</span> <span class="string">"Clean code & real-world impact!"</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero-stats-row">
+                        <div class="stat-item">
+                            <div class="stat-number">4+</div>
+                            <div class="stat-label">Core Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2</div>
+                            <div class="stat-label">Internships</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">4</div>
+                            <div class="stat-label">Languages</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me & Key Strengths Section -->
+        <section class="section-padding" id="about">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fas fa-user-check"></i> Biography</span>
+                    <h2 class="section-title">About Me & Key Strengths</h2>
+                    <p class="section-desc">A dedicated Computer Science student combining theoretical foundations with practical engineering experience.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="glass-card about-summary-box">
+                        <h3><i class="fas fa-bullseye" style="color: var(--accent-cyan);"></i> Professional Summary</h3>
+                        <p style="margin-top: 1rem;">
+                            Third-year B.Sc. Computer Science student at <strong>The Madura College</strong> with a strong foundation in programming and a growing passion for backend development and artificial intelligence.
+                        </p>
+                        <p>
+                            Skilled in Python, Java, C, and C++, with hands-on experience building web applications, cybersecurity tools, and exploring machine learning concepts. A fast learner who enjoys solving real-world problems through clean, efficient code and collaborating in dynamic team environments.
+                        </p>
+
+                        <div class="about-details-list">
+                            <div class="about-detail-item">
+                                <span class="detail-label"><i class="fas fa-calendar-alt"></i> Date of Birth</span>
+                                <span class="detail-val">30/05/2007</span>
+                            </div>
+                            <div class="about-detail-item">
+                                <span class="detail-label"><i class="fas fa-language"></i> Spoken Languages</span>
+                                <span class="detail-val">English, Tamil</span>
+                            </div>
+                            <div class="about-detail-item">
+                                <span class="detail-label"><i class="fas fa-university"></i> Institution</span>
+                                <span class="detail-val">The Madura College</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Strengths Grid -->
+                    <div class="strengths-grid" id="strengths-container">
+                        <!-- Dynamically populated from JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical & Soft Skills Section -->
+        <section class="section-padding" id="skills" style="background: var(--bg-secondary);">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fas fa-code"></i> Capabilities</span>
+                    <h2 class="section-title">Technical Skills & Expertise</h2>
+                    <p class="section-desc">Proficiency across backend systems, programming languages, web technologies, and database architecture.</p>
+                </div>
+
+                <div class="skills-wrapper">
+                    <!-- Programming Languages -->
+                    <div>
+                        <h3 class="skills-category-title"><i class="fas fa-laptop-code"></i> Programming Languages</h3>
+                        <div class="skills-grid" id="programming-skills-container">
+                            <!-- Populated via JS -->
+                        </div>
+                    </div>
+
+                    <!-- Web & Database Technologies -->
+                    <div>
+                        <h3 class="skills-category-title"><i class="fas fa-layer-group"></i> Web & Database Stack</h3>
+                        <div class="skills-grid" id="web-db-skills-container">
+                            <!-- Populated via JS -->
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills & Languages -->
+                    <div class="glass-card" style="margin-top: 1.5rem;">
+                        <h3 class="skills-category-title"><i class="fas fa-brain"></i> Professional Soft Skills</h3>
+                        <div class="soft-skills-container" id="soft-skills-container">
+                            <!-- Populated via JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Showcase Section -->
+        <section class="section-padding" id="projects">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fas fa-folder-open"></i> Portfolio</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-desc">Hands-on applications built with Python, JavaScript, HTML, and CSS focused on cybersecurity, encryption, and AI automation.</p>
+                </div>
+
+                <!-- Filter Controls -->
+                <div class="project-filters" id="project-filters">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="Security & Web">Security & Web</button>
+                    <button class="filter-btn" data-filter="Cryptography & Web">Cryptography</button>
+                    <button class="filter-btn" data-filter="Artificial Intelligence">AI & Speech</button>
+                    <button class="filter-btn" data-filter="Cybersecurity">Cybersecurity</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Dynamic project cards loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Live Demos Playground Section -->
+        <section class="section-padding playground-section" id="playground">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fas fa-flask"></i> Interactive Sandbox</span>
+                    <h2 class="section-title">Live Project Simulators</h2>
+                    <p class="section-desc">Test live working implementations of S. Arunan's key security, encryption, and AI voice assistant tools!</p>
+                </div>
+
+                <!-- Tool Switcher Tabs -->
+                <div class="tool-tabs">
+                    <button class="tool-tab-btn active" data-tool="qr-tool">
+                        <i class="fas fa-qrcode"></i> QR Code & URL Inspector
+                    </button>
+                    <button class="tool-tab-btn" data-tool="encryptor-tool">
+                        <i class="fas fa-key"></i> Text Encryptor / Decryptor
+                    </button>
+                    <button class="tool-tab-btn" data-tool="voice-tool">
+                        <i class="fas fa-microphone"></i> AI Voice Command Assistant
+                    </button>
+                </div>
+
+                <!-- Tool 1: QR & URL Safety Inspector -->
+                <div class="tool-panel active" id="qr-tool">
+                    <div class="tool-card">
+                        <div class="tool-header-bar">
+                            <div class="tool-title">
+                                <i class="fas fa-shield-halved"></i> QR Code & URL Safety Checker Simulator
+                            </div>
+                            <span class="typing-badge">Python Backend Logic</span>
+                        </div>
+
+                        <div class="tool-input-group">
+                            <label class="tool-label" for="qr-url-input">Target Embedded URL / Scanned QR String:</label>
+                            <input type="text" id="qr-url-input" class="tool-input" placeholder="e.g. https://github.com/arunan-s or suspicious-login-update-account.com">
+                        </div>
+
+                        <div class="tool-controls">
+                            <button class="btn btn-primary" id="btn-scan-url">
+                                <i class="fas fa-search"></i> Inspect & Verify URL Safety
+                            </button>
+                            <button class="btn btn-outline" id="btn-sample-safe">Test Safe URL</button>
+                            <button class="btn btn-outline" id="btn-sample-phish">Test Malicious Phishing URL</button>
+                        </div>
+
+                        <div class="tool-result-box" id="qr-scan-result">
+                            <div style="color: #8b949e; font-style: italic;">Enter a URL or click sample buttons to run real-time safety inspection.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 2: Text Encryptor/Decryptor Sandbox -->
+                <div class="tool-panel" id="encryptor-tool">
+                    <div class="tool-card">
+                        <div class="tool-header-bar">
+                            <div class="tool-title">
+                                <i class="fas fa-lock"></i> Text Encryptor & Decryptor Utility
+                            </div>
+                            <span class="typing-badge">Cryptography Sandbox</span>
+                        </div>
+
+                        <div class="tool-input-group">
+                            <label class="tool-label" for="cipher-text-input">Source Plain Text or Secret Message:</label>
+                            <textarea id="cipher-text-input" class="tool-textarea" placeholder="Type plain text to encrypt (e.g. Arunan_Backend_Secret_2026)..."></textarea>
+                        </div>
+
+                        <div class="tool-controls">
+                            <button class="btn btn-primary" id="btn-encrypt">
+                                <i class="fas fa-lock"></i> Encrypt String
+                            </button>
+                            <button class="btn btn-secondary" id="btn-decrypt">
+                                <i class="fas fa-unlock"></i> Decrypt Cipher
+                            </button>
+                            <select id="cipher-algorithm" class="tool-input" style="width: auto;">
+                                <option value="base64">Base64 Encoding</option>
+                                <option value="caesar">Caesar Shift (+5)</option>
+                                <option value="hex">Hexadecimal Code</option>
+                            </select>
+                        </div>
+
+                        <div class="tool-result-box" id="cipher-output-result">
+                            <div style="color: #8b949e; font-style: italic;">Output result string will appear here...</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 3: AI Voice Assistant Command Simulator -->
+                <div class="tool-panel" id="voice-tool">
+                    <div class="tool-card">
+                        <div class="tool-header-bar">
+                            <div class="tool-title">
+                                <i class="fas fa-robot"></i> AI Desktop Voice Assistant Simulator
+                            </div>
+                            <span class="typing-badge">Speech & Automation</span>
+                        </div>
+
+                        <div class="tool-input-group">
+                            <label class="tool-label" for="voice-cmd-input">Type or Speak Command (e.g. "open github", "tell joke", "system info", "search python"):</label>
+                            <div style="display: flex; gap: 0.75rem;">
+                                <input type="text" id="voice-cmd-input" class="tool-input" placeholder="Say or type command...">
+                                <button class="btn btn-primary" id="btn-voice-mic" style="padding: 0.85rem 1.25rem;">
+                                    <i class="fas fa-microphone"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="tool-controls">
+                            <button class="btn btn-secondary" id="btn-exec-cmd">
+                                <i class="fas fa-terminal"></i> Execute Command
+                            </button>
+                            <button class="btn btn-outline" id="btn-cmd-github">"Open GitHub"</button>
+                            <button class="btn btn-outline" id="btn-cmd-sys">"System Info"</button>
+                            <button class="btn btn-outline" id="btn-cmd-joke">"Tell Joke"</button>
+                        </div>
+
+                        <div class="tool-result-box" id="voice-assistant-console">
+                            <div class="terminal-line"><span class="prompt">Assistant:</span> Ready for spoken or typed commands...</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Experience, Education & Certifications Timeline -->
+        <section class="section-padding" id="experience">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fas fa-briefcase"></i> Career Journey</span>
+                    <h2 class="section-title">Experience & Education</h2>
+                    <p class="section-desc">Internships, academic milestones, web development certifications, and NSS community service.</p>
+                </div>
+
+                <div class="timeline-grid">
+                    <!-- Left: Internship Experience -->
+                    <div>
+                        <h3 class="timeline-column-title"><i class="fas fa-user-shield"></i> Internship Experience</h3>
+                        <div class="timeline" id="experience-timeline">
+                            <!-- Populated via JS -->
+                        </div>
+                    </div>
+
+                    <!-- Right: Education & Certifications -->
+                    <div>
+                        <h3 class="timeline-column-title"><i class="fas fa-graduation-cap"></i> Education & Certification</h3>
+                        
+                        <!-- Education Cards -->
+                        <div class="timeline" id="education-timeline">
+                            <!-- Populated via JS -->
+                        </div>
+
+                        <!-- Extracurricular NSS -->
+                        <div class="glass-card" style="margin-top: 2rem;">
+                            <h3><i class="fas fa-hands-helping" style="color: var(--accent-cyan);"></i> National Service Scheme (NSS)</h3>
+                            <p style="color: var(--accent-indigo); font-weight: 600; font-size: 0.9rem; margin-bottom: 0.75rem;">Active Member & Volunteer</p>
+                            <ul class="timeline-bullets">
+                                <li>Actively participated in community service initiatives, contributing to social welfare and outreach programs.</li>
+                                <li>Collaborated with team members on group projects, developing leadership and teamwork skills.</li>
+                                <li>Demonstrated social responsibility and commitment to community development through consistent volunteer engagement.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section-padding" id="contact" style="background: var(--bg-secondary);">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fas fa-envelope-open-text"></i> Get In Touch</span>
+                    <h2 class="section-title">Contact & Communication</h2>
+                    <p class="section-desc">Feel free to reach out for internship opportunities, collaborations, or technical discussions.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Left Info -->
+                    <div class="contact-info-cards">
+                        <div class="glass-card contact-info-card">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-details">
+                                <h4>Email Address</h4>
+                                <a href="mailto:arunans3007@gmail.com">arunans3007@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="glass-card contact-info-card">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div class="contact-details">
+                                <h4>Phone Contact</h4>
+                                <a href="tel:+916379051534">+91 6379051534</a>
+                            </div>
+                        </div>
+
+                        <div class="glass-card contact-info-card">
+                            <div class="contact-icon"><i class="fas fa-location-dot"></i></div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Madurai, Tamil Nadu, India</p>
+                            </div>
+                        </div>
+
+                        <div class="glass-card contact-info-card">
+                            <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+                            <div class="contact-details">
+                                <h4>LinkedIn Profile</h4>
+                                <a href="https://linkedin.com" target="_blank" rel="noopener">S. ARUNAN on LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Form -->
+                    <div class="glass-card">
+                        <h3 style="margin-bottom: 1.5rem;"><i class="fas fa-paper-plane" style="color: var(--accent-cyan);"></i> Send a Message</h3>
+                        
+                        <form class="contact-form" id="contact-form" novalidate>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="contact-name">Your Full Name *</label>
+                                    <input type="text" id="contact-name" class="form-input" placeholder="e.g. John Doe" required>
+                                    <span class="form-error" id="err-name">Please enter your name.</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-email">Your Email Address *</label>
+                                    <input type="email" id="contact-email" class="form-input" placeholder="e.g. john@example.com" required>
+                                    <span class="form-error" id="err-email">Please enter a valid email address.</span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-subject">Subject / Inquiry Title *</label>
+                                <input type="text" id="contact-subject" class="form-input" placeholder="e.g. Backend Internship Opportunity" required>
+                                <span class="form-error" id="err-subject">Please provide a subject.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-message">Message Details *</label>
+                                <textarea id="contact-message" class="form-textarea" placeholder="Hello Arunan, I am interested in reviewing your profile for..." required></textarea>
+                                <span class="form-error" id="err-message">Please type your message.</span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 0.5rem;">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container footer-content">
+            <a href="#hero" class="logo">
+                <span class="logo-accent">&lt;</span>S. ARUNAN<span class="logo-accent"> /&gt;</span>
+            </a>
+
+            <div class="footer-socials">
+                <a href="mailto:arunans3007@gmail.com" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+916379051534" class="social-link" title="Phone"><i class="fas fa-phone"></i></a>
+                <a href="https://linkedin.com" target="_blank" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com" target="_blank" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+
+            <p class="footer-text">
+                © <span id="year-span">2026</span> S. ARUNAN. All Rights Reserved. | B.Sc. Computer Science • The Madura College
+            </p>
+        </div>
+    </footer>
+
+    <!-- Project Details Modal Window -->
+    <div class="modal-overlay" id="project-modal">
+        <div class="modal-card">
+            <button class="modal-close-btn" id="modal-close" aria-label="Close Modal"><i class="fas fa-times"></i></button>
+            <div id="modal-body-content">
+                <!-- Dynamically populated from JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <!-- Data Script -->
+    <script src="js/projects-data.js"></script>
+    <!-- Main JS App Script -->
+    <script src="js/main.js"></script>
+</body>
+</html>
